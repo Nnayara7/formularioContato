@@ -4,7 +4,7 @@ Simples formulário de contato com envio de arquivo.
 
 ## Para que o programa funcione
 
-### Passo 1: Install via Composer
+### Install via Composer
 
  - `composer install` - Instalar todos os pacotes de dependecia do composer 
  - `cp .env.example .env` - Copiar `.env.example` para `.env` e configurar `DB_*`variáveis relacionadas e `DB_*` variáveis relacionadas (para que seja possivel o envio do email).
