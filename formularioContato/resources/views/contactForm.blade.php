@@ -7,7 +7,6 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
         <title>Formulario de Contato</title>
-
         @if(count($errors) != 0) 
             @foreach ($errors->all() as $erro)
                 <p class="alert alert-danger text-center">{{$erro}}</p>
